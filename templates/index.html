@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Clyde - Free Bootstrap 4 Template by Colorlib</title>
+	<title>Tejas - Web Developer </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/animate.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/magnific-popup.css')}}">
 	
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/flaticon.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css')}}">
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	
 	
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">Tejas<span>.</span></a>
+			<a class="navbar-brand" href="{{url_for('IndexPage')}}">Tejas<span>.</span></a>
 			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -47,7 +46,7 @@
 				<div class="overlay"></div>
 				<div class="container-fluid px-md-0">
 					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-						<div class="one-third order-md-last img" style="background-image:url(images/bg_1.jpg);">
+						<div class="one-third order-md-last img" style="background-image:url(static/images/bg_1.jpg);">
 							<div class="overlay"></div>
 							<div class="overlay-1"></div>
 						</div>
@@ -55,7 +54,7 @@
 							<div class="text">
 								<span class="subheading">Hello! This is Tejas</span>
 								<h1 class="mb-4 mt-3">Creative <span>UI/UX</span> Designer &amp; Developer</h1>
-								<p><a href="#" class="btn btn-primary">Hire me</a> <a href="./Resume.pdf" class="btn btn-primary btn-outline-primary" download>Download CV</a></p>
+								<p><a href="#contact-section" class="btn btn-primary">Hire me</a> <a href="./static/Resume.pdf" class="btn btn-primary btn-outline-primary" download>Download CV</a></p>
 							</div>
 						</div>
 					</div>
@@ -66,7 +65,7 @@
 				<div class="overlay"></div>
 				<div class="container-fluid px-md-0">
 					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-						<div class="one-third order-md-last img" style="background-image:url(images/bg_2.jpg);">
+						<div class="one-third order-md-last img" style="background-image:url(static/images/bg_2.jpg);">
 							<div class="overlay"></div>
 							<div class="overlay-1"></div>
 						</div>
@@ -140,7 +139,7 @@
 				<div class="col-md-6 col-lg-5 d-flex">
 					<div class="img-about img d-flex align-items-stretch">
 						<div class="overlay"></div>
-						<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about-1.jpg);">
+						<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(static/images/about-1.jpg);">
 						</div>
 					</div>
 				</div>
@@ -496,7 +495,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-lg-4 d-flex align-items-end">
-					<img src="images/author.png" class="img-fluid" alt="">
+					<img src="static/images/author.png" class="img-fluid" alt="">
 				</div>
 			</div>
 		</div>
@@ -513,7 +512,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/work-1.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -522,7 +521,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/work-2.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -531,7 +530,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/work-3.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -540,7 +539,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.jpg);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/work-4.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -549,7 +548,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.jpg);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/work-5.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -558,7 +557,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.jpg);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/work-6.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -567,7 +566,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-7.jpg);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/work-7.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -576,7 +575,7 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-8.jpg);">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/work-8.jpg);">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -694,7 +693,7 @@
 			<div class="row d-flex">
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+						<a href="{{url_for('Blog')}}" class="block-20" style="background-image: url('static/images/image_1.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
 							<div class="d-flex align-items-center mb-3 meta">
@@ -704,14 +703,14 @@
 									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
 								</p>
 							</div>
-							<h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading"><a href="{{url_for('Blog')}}">Why Lead Generation is Key for Business Growth</a></h3>
 							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+						<a href="{{url_for('Blog')}}" class="block-20" style="background-image: url('static/images/image_2.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
 							<div class="d-flex align-items-center mb-3 meta">
@@ -728,7 +727,7 @@
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry">
-						<a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+						<a href="{{url_for('Blog')}}" class="block-20" style="background-image: url('static/images/image_3.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
 							<div class="d-flex align-items-center mb-3 meta">
@@ -798,7 +797,7 @@
 								<span class="fa fa-map-marker"></span>
 							</div>
 							<div class="text">
-								<p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+								<p><span>Address:</span> 401, Simran Elegance, Tandon Road, Ramnagar, Dombivli East.</p>
 							</div>
 						</div>
 						<div class="dbox w-100 d-flex">
@@ -806,7 +805,7 @@
 								<span class="fa fa-phone"></span>
 							</div>
 							<div class="text">
-								<p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+								<p><span>Phone:</span> <a href="tel://8879385690">+91-8879385690</a></p>
 							</div>
 						</div>
 						<div class="dbox w-100 d-flex">
@@ -814,7 +813,7 @@
 								<span class="fa fa-paper-plane"></span>
 							</div>
 							<div class="text">
-								<p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+								<p><span>Email:</span> <a href="mailto:tejas.choudhari15@gmail.com">tejas.choudhari15@gmail.com</a></p>
 							</div>
 						</div>
 						<div class="dbox w-100 d-flex">
@@ -903,21 +902,20 @@
 		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery-migrate-3.0.1.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/jquery.waypoints.min.js"></script>
-		<script src="js/jquery.stellar.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/jquery.animateNumber.min.js"></script>
-		<script src="js/scrollax.min.js"></script>
+		<script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+		<script src="{{url_for('static',filename='js/jquery-migrate-3.0.1.min.js')}}"></script>
+		<script src="{{url_for('static',filename='js/popper.min.js')}})"></script>
+		<script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+		<script src="{{url_for('static',filename='js/jquery.easing.1.3.js')}}"></script>
+		<script src="{{url_for('static',filename='js/jquery.waypoints.min.js')}}"></script>
+		<script src="{{url_for('static',filename='js/jquery.stellar.min.js')}}"></script>
+		<script src="{{url_for('static',filename='js/owl.carousel.min.js')}}"></script>
+		<script src="{{url_for('static',filename='js/jquery.magnific-popup.min.js')}}"></script>
+		<script src="{{url_for('static',filename='js/jquery.animateNumber.min.js')}}"></script>
+		<script src="{{url_for('static',filename='js/scrollax.min.js')}}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-		<script src="js/google-map.js"></script>
-		
-		<script src="js/main.js"></script>
+        <script src="{{url_for('static',filename='js/google-map.js')}}"></script>
+        <script src="{{url_for('static',filename='js/main.js')}}"></script>
 		
 	</body>
 	</html>

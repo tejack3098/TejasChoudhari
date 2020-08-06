@@ -1,2 +1,0 @@
-# TejasChoudhari
- My Portfolio Website
